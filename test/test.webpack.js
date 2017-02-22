@@ -1,0 +1,5 @@
+var context = require.context('./test', true, /spec\.js$/);
+context.keys().forEach(context);
+
+var context = require.context('./src', true, /\.jsx?$/);
+context.keys().forEach(context);

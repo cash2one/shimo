@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+   	height: 100%;
+}
+
+body {
+    //font: 12px/1.5 Heiti SC,tahoma,arial,'Hiragino Sans GB',\5FAE\8F6F\96C5\9ED1,sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+	color: #333;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    background: #F6F7F9;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    background-color: transparent;
+}
+label {
+	font-weight: normal;
+	margin-bottom: 0;
+}
